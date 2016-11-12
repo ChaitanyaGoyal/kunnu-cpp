@@ -1,0 +1,85 @@
+Computing for YOUNGSMODULUS and YIELDSTRESS =(5210706.9812436979,,
+(5210706.9812436979,
+(null)
+(5210706.9812436979,
+(5210706.9812436979,
+(null)
+(null)
+(5210706.9812436979,
+(null)
+[Jarvis:19154] *** Process received signal ***
+[Jarvis:19155] *** Process received signal ***
+[Jarvis:19155] Signal: Segmentation fault (11)
+[Jarvis:19155] Signal code: Address not mapped (1)
+[Jarvis:19155] Failing at address: (nil)
+[Jarvis:19154] Signal: Segmentation fault (11)
+[Jarvis:19154] Signal code: Address not mapped (1)
+[Jarvis:19154] Failing at address: (nil)
+[Jarvis:19153] *** Process received signal ***
+[Jarvis:19153] Signal: Segmentation fault (11)
+[Jarvis:19153] Signal code: Address not mapped (1)
+[Jarvis:19153] Failing at address: (nil)
+[Jarvis:19156] *** Process received signal ***
+[Jarvis:19155] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x36cb0) [0x7f1b104c0cb0]
+[Jarvis:19155] [ 1] /lib/x86_64-linux-gnu/libc.so.6(__rawmemchr+0x1f) [0x7f1b1051d7bf]
+[Jarvis:19155] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x7cfc2) [0x7f1b10506fc2]
+[Jarvis:19155] [ 3] /lib/x86_64-linux-gnu/libc.so.6(vsscanf+0x57) [0x7f1b104fa987]
+[Jarvis:19155] [ 4] /lib/x86_64-linux-gnu/libc.so.6(_IO_sscanf+0x87) [0x7f1b104e71c7]
+[Jarvis:19155] [ 5] demo_wave2DPulseVM(main+0xfd) [0x411bdd]
+[Jarvis:19155] [ 6] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7f1b104abf45]
+[Jarvis:19155] [ 7] demo_wave2DPulseVM() [0x4139c9]
+[Jarvis:19155] *** End of error message ***
+[Jarvis:19154] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x36cb0) [0x7f54f8f2bcb0]
+[Jarvis:19154] [ 1] /lib/x86_64-linux-gnu/libc.so.6(__rawmemchr+0x1f) [0x7f54f8f887bf]
+[Jarvis:19154] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x7cfc2) [0x7f54f8f71fc2]
+[Jarvis:19154] [ 3] /lib/x86_64-linux-gnu/libc.so.6(vsscanf+0x57) [0x7f54f8f65987]
+[Jarvis:19154] [ 4] /lib/x86_64-linux-gnu/libc.so.6(_IO_sscanf+0x87) [0x7f54f8f521c7]
+[Jarvis:19154] [ 5] demo_wave2DPulseVM(main+0xfd) [0x411bdd]
+[Jarvis:19154] [ 6] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7f54f8f16f45]
+[Jarvis:19154] [ 7] demo_wave2DPulseVM() [0x4139c9]
+[Jarvis:19154] *** End of error message ***
+[Jarvis:19153] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x36cb0) [0x7f19a57e8cb0]
+[Jarvis:19153] [ 1] /lib/x86_64-linux-gnu/libc.so.6(__rawmemchr+0x1f) [0x7f19a58457bf]
+[Jarvis:19153] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x7cfc2) [0x7f19a582efc2]
+[Jarvis:19153] [ 3] /lib/x86_64-linux-gnu/libc.so.6(vsscanf+0x57) [0x7f19a5822987]
+[Jarvis:19153] [ 4] /lib/x86_64-linux-gnu/libc.so.6(_IO_sscanf+0x87) [0x7f19a580f1c7]
+[Jarvis:19153] [ 5] demo_wave2DPulseVM(main+0xfd) [0x411bdd]
+[Jarvis:19153] [ 6] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7f19a57d3f45]
+[Jarvis:19153] [ 7] demo_wave2DPulseVM() [0x4139c9]
+[Jarvis:19153] *** End of error message ***
+[Jarvis:19156] Signal: Segmentation fault (11)
+[Jarvis:19156] Signal code: Address not mapped (1)
+[Jarvis:19156] Failing at address: (nil)
+[Jarvis:19156] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x36cb0) [0x7f241f85ecb0]
+[Jarvis:19156] [ 1] /lib/x86_64-linux-gnu/libc.so.6(__rawmemchr+0x1f) [0x7f241f8bb7bf]
+[Jarvis:19156] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x7cfc2) [0x7f241f8a4fc2]
+[Jarvis:19156] [ 3] /lib/x86_64-linux-gnu/libc.so.6(vsscanf+0x57) [0x7f241f898987]
+[Jarvis:19156] [ 4] /lib/x86_64-linux-gnu/libc.so.6(_IO_sscanf+0x87) [0x7f241f8851c7]
+[Jarvis:19156] [ 5] demo_wave2DPulseVM(main+0xfd) [0x411bdd]
+[Jarvis:19156] [ 6] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7f241f849f45]
+[Jarvis:19156] [ 7] demo_wave2DPulseVM() [0x4139c9]
+[Jarvis:19156] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 19154 on node Jarvis exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Computing for YOUNGSMODULUS and YIELDSTRESS =2433319.3842787645),
+2433319.3842787645)
+(null)
+2433319.3842787645)
+(null)
+2433319.3842787645)
+2433319.3842787645)
+(null)
+(null)
+^Cmpirun: killing job...
+
+Computing for YOUNGSMODULUS and YIELDSTRESS =(4050558.6320697097,,
+(4050558.6320697097,
+(null)
+(4050558.6320697097,
+(null)
+(4050558.6320697097,
+(null)
+(4050558.6320697097,
+(null)
+^Cmpirun: killing job...
